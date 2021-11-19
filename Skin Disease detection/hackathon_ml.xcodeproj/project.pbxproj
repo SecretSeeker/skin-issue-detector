@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50339DFE22D8A70C0016F4E6 /* FeatureSelectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50339DFD22D8A70C0016F4E6 /* FeatureSelectionCell.xib */; };
+		50339E0022D8A7E80016F4E6 /* SelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50339DFF22D8A7E80016F4E6 /* SelectionCell.swift */; };
+		5034968A2327A70200D2CB35 /* saved_modelmlmodel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 503496892327A70200D2CB35 /* saved_modelmlmodel.mlmodel */; };
+		5036370B22D1C68400CAE983 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5036370A22D1C68400CAE983 /* AppDelegate.swift */; };
+		5036370D22D1C68400CAE983 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5036370C22D1C68400CAE983 /* ViewController.swift */; };
+		5036371022D1C68400CAE983 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5036370E22D1C68400CAE983 /* Main.storyboard */; };
+		5036371522D1C68600CAE983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5036371322D1C68600CAE983 /* LaunchScreen.storyboard */; };
+		5036372022D1C68600CAE983 /* hackathon_mlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5036371F22D1C68600CAE983 /* hackathon_mlTests.swift */; };
+		5036372B22D1C6D300CAE983 /* classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5036372A22D1C6D300CAE983 /* classifier.swift */; };
+		5036373922D1DBDC00CAE983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5036373822D1DBDC00CAE983 /* Assets.xcassets */; };
+		5036FF4B22D9EC1E00779329 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5036FF4A22D9EC1E00779329 /* PreviewViewController.swift */; };
+		50C684D422DA1114007838BA /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C684D322DA1114007838BA /* ResultViewController.swift */; };
+		50C684D622DB3972007838BA /* skinDiseasemlmodel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 50C684D522DB3972007838BA /* skinDiseasemlmodel.mlmodel */; };
+		50C684D822DB3B22007838BA /* DiseaseClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C684D722DB3B22007838BA /* DiseaseClassifier.swift */; };
+		50FF825122D7790B00183B45 /* LesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FF825022D7790B00183B45 /* LesionViewController.swift */; };
+		50FF825322D7858900183B45 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FF825222D7858900183B45 /* StartViewController.swift */; };
+		50FF825522D78A1A00183B45 /* UVProtectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FF825422D78A1A00183B45 /* UVProtectionViewController.swift */; };
+		50FF825722D78A5B00183B45 /* DiseasedetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FF825622D78A5B00183B45 /* DiseasedetectionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5036371C22D1C68600CAE983 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 503636FF22D1C68400CAE983 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5036370622D1C68400CAE983;
+			remoteInfo = hackathon_ml;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50339DFD22D8A70C0016F4E6 /* FeatureSelectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeatureSelectionCell.xib; sourceTree = "<group>"; };
+		50339DFF22D8A7E80016F4E6 /* SelectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionCell.swift; sourceTree = "<group>"; };
+		503496892327A70200D2CB35 /* saved_modelmlmodel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = saved_modelmlmodel.mlmodel; sourceTree = "<group>"; };
+		5036370722D1C68400CAE983 /* hackathon_ml.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackathon_ml.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5036370A22D1C68400CAE983 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5036370C22D1C68400CAE983 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5036370F22D1C68400CAE983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5036371422D1C68600CAE983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5036371622D1C68600CAE983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5036371B22D1C68600CAE983 /* hackathon_mlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hackathon_mlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5036371F22D1C68600CAE983 /* hackathon_mlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackathon_mlTests.swift; sourceTree = "<group>"; };
+		5036372122D1C68600CAE983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5036372A22D1C6D300CAE983 /* classifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classifier.swift; sourceTree = "<group>"; };
+		5036373822D1DBDC00CAE983 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5036FF4A22D9EC1E00779329 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		50C684D322DA1114007838BA /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		50C684D522DB3972007838BA /* skinDiseasemlmodel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = skinDiseasemlmodel.mlmodel; sourceTree = SOURCE_ROOT; };
+		50C684D722DB3B22007838BA /* DiseaseClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiseaseClassifier.swift; sourceTree = "<group>"; };
+		50FF825022D7790B00183B45 /* LesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LesionViewController.swift; sourceTree = "<group>"; };
+		50FF825222D7858900183B45 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		50FF825422D78A1A00183B45 /* UVProtectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UVProtectionViewController.swift; sourceTree = "<group>"; };
+		50FF825622D78A5B00183B45 /* DiseasedetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiseasedetectionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5036370422D1C68400CAE983 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5036371822D1C68600CAE983 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		503636FE22D1C68400CAE983 = {
+			isa = PBXGroup;
+			children = (
+				5036370922D1C68400CAE983 /* hackathon_ml */,
+				5036371E22D1C68600CAE983 /* hackathon_mlTests */,
+				5036370822D1C68400CAE983 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5036370822D1C68400CAE983 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5036370722D1C68400CAE983 /* hackathon_ml.app */,
+				5036371B22D1C68600CAE983 /* hackathon_mlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5036370922D1C68400CAE983 /* hackathon_ml */ = {
+			isa = PBXGroup;
+			children = (
+				503496892327A70200D2CB35 /* saved_modelmlmodel.mlmodel */,
+				50C684D522DB3972007838BA /* skinDiseasemlmodel.mlmodel */,
+				5036373822D1DBDC00CAE983 /* Assets.xcassets */,
+				5036FF4A22D9EC1E00779329 /* PreviewViewController.swift */,
+				5036370A22D1C68400CAE983 /* AppDelegate.swift */,
+				50FF825622D78A5B00183B45 /* DiseasedetectionViewController.swift */,
+				5036370C22D1C68400CAE983 /* ViewController.swift */,
+				50FF825222D7858900183B45 /* StartViewController.swift */,
+				50FF825022D7790B00183B45 /* LesionViewController.swift */,
+				5036370E22D1C68400CAE983 /* Main.storyboard */,
+				50C684D322DA1114007838BA /* ResultViewController.swift */,
+				50FF825422D78A1A00183B45 /* UVProtectionViewController.swift */,
+				5036371322D1C68600CAE983 /* LaunchScreen.storyboard */,
+				5036371622D1C68600CAE983 /* Info.plist */,
+				5036372A22D1C6D300CAE983 /* classifier.swift */,
+				50339DFD22D8A70C0016F4E6 /* FeatureSelectionCell.xib */,
+				50339DFF22D8A7E80016F4E6 /* SelectionCell.swift */,
+				50C684D722DB3B22007838BA /* DiseaseClassifier.swift */,
+			);
+			path = hackathon_ml;
+			sourceTree = "<group>";
+		};
+		5036371E22D1C68600CAE983 /* hackathon_mlTests */ = {
+			isa = PBXGroup;
+			children = (
+				5036371F22D1C68600CAE983 /* hackathon_mlTests.swift */,
+				5036372122D1C68600CAE983 /* Info.plist */,
+			);
+			path = hackathon_mlTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5036370622D1C68400CAE983 /* hackathon_ml */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5036372422D1C68600CAE983 /* Build configuration list for PBXNativeTarget "hackathon_ml" */;
+			buildPhases = (
+				5036370322D1C68400CAE983 /* Sources */,
+				5036370422D1C68400CAE983 /* Frameworks */,
+				5036370522D1C68400CAE983 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hackathon_ml;
+			productName = hackathon_ml;
+			productReference = 5036370722D1C68400CAE983 /* hackathon_ml.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5036371A22D1C68600CAE983 /* hackathon_mlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5036372722D1C68600CAE983 /* Build configuration list for PBXNativeTarget "hackathon_mlTests" */;
+			buildPhases = (
+				5036371722D1C68600CAE983 /* Sources */,
+				5036371822D1C68600CAE983 /* Frameworks */,
+				5036371922D1C68600CAE983 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5036371D22D1C68600CAE983 /* PBXTargetDependency */,
+			);
+			name = hackathon_mlTests;
+			productName = hackathon_mlTests;
+			productReference = 5036371B22D1C68600CAE983 /* hackathon_mlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		503636FF22D1C68400CAE983 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = philips;
+				TargetAttributes = {
+					5036370622D1C68400CAE983 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5036371A22D1C68600CAE983 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5036370622D1C68400CAE983;
+					};
+				};
+			};
+			buildConfigurationList = 5036370222D1C68400CAE983 /* Build configuration list for PBXProject "hackathon_ml" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 503636FE22D1C68400CAE983;
+			productRefGroup = 5036370822D1C68400CAE983 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5036370622D1C68400CAE983 /* hackathon_ml */,
+				5036371A22D1C68600CAE983 /* hackathon_mlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5036370522D1C68400CAE983 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50339DFE22D8A70C0016F4E6 /* FeatureSelectionCell.xib in Resources */,
+				5036371522D1C68600CAE983 /* LaunchScreen.storyboard in Resources */,
+				5036373922D1DBDC00CAE983 /* Assets.xcassets in Resources */,
+				5036371022D1C68400CAE983 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5036371922D1C68600CAE983 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5036370322D1C68400CAE983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50FF825122D7790B00183B45 /* LesionViewController.swift in Sources */,
+				5036372B22D1C6D300CAE983 /* classifier.swift in Sources */,
+				50339E0022D8A7E80016F4E6 /* SelectionCell.swift in Sources */,
+				5034968A2327A70200D2CB35 /* saved_modelmlmodel.mlmodel in Sources */,
+				5036FF4B22D9EC1E00779329 /* PreviewViewController.swift in Sources */,
+				50C684D822DB3B22007838BA /* DiseaseClassifier.swift in Sources */,
+				50FF825522D78A1A00183B45 /* UVProtectionViewController.swift in Sources */,
+				5036370D22D1C68400CAE983 /* ViewController.swift in Sources */,
+				5036370B22D1C68400CAE983 /* AppDelegate.swift in Sources */,
+				50C684D622DB3972007838BA /* skinDiseasemlmodel.mlmodel in Sources */,
+				50FF825722D78A5B00183B45 /* DiseasedetectionViewController.swift in Sources */,
+				50FF825322D7858900183B45 /* StartViewController.swift in Sources */,
+				50C684D422DA1114007838BA /* ResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5036371722D1C68600CAE983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5036372022D1C68600CAE983 /* hackathon_mlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5036371D22D1C68600CAE983 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5036370622D1C68400CAE983 /* hackathon_ml */;
+			targetProxy = 5036371C22D1C68600CAE983 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5036370E22D1C68400CAE983 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5036370F22D1C68400CAE983 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5036371322D1C68600CAE983 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5036371422D1C68600CAE983 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5036372222D1C68600CAE983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5036372322D1C68600CAE983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5036372522D1C68600CAE983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9C645VSQP;
+				INFOPLIST_FILE = hackathon_ml/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.philips.dev.vitaskinInHouseApptentiveAppTest.hackathon-ml";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5036372622D1C68600CAE983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9C645VSQP;
+				INFOPLIST_FILE = hackathon_ml/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.philips.dev.vitaskinInHouseApptentiveAppTest.hackathon-ml";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5036372822D1C68600CAE983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9C645VSQP;
+				INFOPLIST_FILE = hackathon_mlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.philips.dev.vitaskinInHouseApptentiveAppTest.hackathon-mlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hackathon_ml.app/hackathon_ml";
+			};
+			name = Debug;
+		};
+		5036372922D1C68600CAE983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9C645VSQP;
+				INFOPLIST_FILE = hackathon_mlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.philips.dev.vitaskinInHouseApptentiveAppTest.hackathon-mlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hackathon_ml.app/hackathon_ml";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5036370222D1C68400CAE983 /* Build configuration list for PBXProject "hackathon_ml" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5036372222D1C68600CAE983 /* Debug */,
+				5036372322D1C68600CAE983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5036372422D1C68600CAE983 /* Build configuration list for PBXNativeTarget "hackathon_ml" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5036372522D1C68600CAE983 /* Debug */,
+				5036372622D1C68600CAE983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5036372722D1C68600CAE983 /* Build configuration list for PBXNativeTarget "hackathon_mlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5036372822D1C68600CAE983 /* Debug */,
+				5036372922D1C68600CAE983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 503636FF22D1C68400CAE983 /* Project object */;
+}
